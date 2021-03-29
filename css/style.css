@@ -9612,3 +9612,34 @@ h1, h2, h3, h4, h5,
 .navbar-brand {
   font-weight: 700;
   font-size: 22px; }
+
+.typewriter h2 {
+  border-right: solid 3px rgba(0,255,0,.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  color: rgba(255,255,255,.70);
+  position: absolute;
+  right: 10px;
+}
+
+/* Animation */
+h2 {
+  animation: animated-text 3.5s steps(40,end),
+             animated-cursor 600ms steps(17,end) infinite;
+             
+    /*blink-caret .75s step-end infinite;*/
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 100%;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(0,255,0,.75);}
+  to{border-right-color: transparent;}
+}
