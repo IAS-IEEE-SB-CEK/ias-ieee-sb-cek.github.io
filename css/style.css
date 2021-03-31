@@ -9642,3 +9642,10 @@ h2 {
   to{border-right-color: transparent;}
 }
 
+.notification{
+  color: rgb(112, 112, 112);
+}
+
+.notification:hover{
+  color: rgb(72, 145, 255);
+}
