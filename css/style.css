@@ -9671,8 +9671,13 @@ h2 {
     height: 1380px;
   }
 }
-@media (min-width: 375px){
+@media (min-width: 360px){
   #mapre .map-responsive{
-    height: 1410px;
+    height: 1450px;
+  }
+}
+@media (min-width: 320px){
+  #mapre .map-responsive{
+    height: 1500px;
   }
 }
