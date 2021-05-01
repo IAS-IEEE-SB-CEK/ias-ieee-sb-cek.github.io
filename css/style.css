@@ -9652,3 +9652,27 @@ h2 {
 
 
 /* Extra Things */
+#mapre .map-responsive{
+  height: 1280px;
+}
+
+@media (max-width: 767px){
+  #mapre .map-responsive{
+    height: 1320px;
+  }
+}
+@media (max-width: 477px){
+  #mapre .map-responsive{
+    height: 1380px;
+  }
+}
+@media (max-width: 477px){
+  #mapre .map-responsive{
+    height: 1380px;
+  }
+}
+@media (min-width: 375px){
+  #mapre .map-responsive{
+    height: 1410px;
+  }
+}
