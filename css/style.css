@@ -9622,11 +9622,6 @@ h1, h2, h3, h4, h5,
   right: 10px;
 }
 
-/* Animation */
-h2 {
-  animation: animated-text 5s steps(40,end),
-             animated-cursor 600ms steps(17,end) infinite;
-}
 
 /* text animation */
 
