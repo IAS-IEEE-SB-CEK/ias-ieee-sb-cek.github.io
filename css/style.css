@@ -57,7 +57,8 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-color: #fff; 
+overflow-x: hidden;}
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -9667,6 +9668,41 @@ h1, h2, h3, h4, h5,
   #mapre .map-responsive{
     height: 1380px;
   }
+}
+@media (max-width: 415px){
+  #mapre .map-responsive{
+    height: 1450px;
+  }
+}
+@media (max-width: 357px){
+  #mapre .map-responsive{
+    height: 1500px;
+  }
+}
+
+
+.topHeading{
+  color: whitesmoke; 
+  font-weight: 600;
+   font-size: 35px;
+}
+.topHeadingP{
+  font-size: 35px;
+}
+@media (max-width: 767px){
+  .topHeading{
+     font-size: 25px;
+  }
+}
+@media (max-width: 477px){
+  .topHeading{
+    font-size: 30px;
+ }
+}
+@media (max-width: 477px){
+  .topHeading{
+    font-size: 30px;
+ }
 }
 @media (max-width: 415px){
   #mapre .map-responsive{

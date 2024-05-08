@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("SharedWorkerUtils",["WorkerConfig"],(function(a,b,c,d,e,f,g){"use strict";function b(){return d("WorkerConfig").worker==="shared"&&"SharedWorker"in a&&typeof a.SharedWorker==="function"}g.isSharedWorkerSupported=b}),98);
+__d("shouldUseMAWSharedWorker",["QE2Logger","SharedWorkerUtils","qex"],(function(a,b,c,d,e,f,g){"use strict";function a(){return d("SharedWorkerUtils").isSharedWorkerSupported()&&c("qex")._("9")===!0}function b(){d("SharedWorkerUtils").isSharedWorkerSupported()&&d("QE2Logger").logExposureForUser("armadillo_web_worker")}g.shouldUseMAWSharedWorker=a;g.logExposureForMAWSharedWorker=b}),98);
